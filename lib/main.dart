@@ -1,4 +1,4 @@
-import 'package:bizup_app/screen/test.dart';
+import 'package:bizup_app/screen/imageEditor.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,12 +11,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.grey,
         //  visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Scaffold(
-        body: Test(),
+        body: ImageEditor(),
       ),
     );
   }
